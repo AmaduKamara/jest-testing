@@ -18,4 +18,17 @@ const stringLength = (str) => {
 // Task 2 - ReverseString
 const reverseString = (str) => str.split("").reverse().join("");
 
-module.exports = { stringLength, reverseString };
+// Task 3 - Calculator class
+class Calculator {
+  add = (num1, num2) => num1 + num2;
+
+  multiply = (num1, num2) => num1 * num2;
+
+  subtract = (num1, num2) => num1 - num2;
+
+  divide = (num1, num2) => num1 / num2;
+}
+
+const calculator = new Calculator();
+
+module.exports = { stringLength, reverseString, calculator };
