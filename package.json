@@ -1,0 +1,22 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "Unit Testing with Jest library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaduKamara/jest-testing.git"
+  },
+  "author": "Amadu Kamara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmaduKamara/jest-testing/issues"
+  },
+  "homepage": "https://github.com/AmaduKamara/jest-testing#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
