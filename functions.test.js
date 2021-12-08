@@ -1,4 +1,9 @@
-const { stringLength, reverseString, calculator } = require("./functions.js");
+const {
+  stringLength,
+  reverseString,
+  calculator,
+  capitalize,
+} = require("./functions.js");
 
 // String Length Tests
 test("String length:", () => {
@@ -51,4 +56,9 @@ describe("Calculator functions:", () => {
     expect(calculator.divide(10, 2)).toBe(5);
     expect(calculator.divide(16, 8)).toBe(2);
   });
+});
+
+// Capitalize String Test
+test("First character capitalized: ", () => {
+  expect(capitalize("amkam")).toBe("Amkam");
 });

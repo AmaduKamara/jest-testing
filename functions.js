@@ -31,4 +31,7 @@ class Calculator {
 
 const calculator = new Calculator();
 
-module.exports = { stringLength, reverseString, calculator };
+// Capitalize String
+const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
+
+module.exports = { stringLength, reverseString, calculator, capitalize };
